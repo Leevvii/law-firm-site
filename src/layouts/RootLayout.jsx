@@ -6,7 +6,7 @@ export default function RootLayout() {
   return (
     <>
       <NavBar />
-      <main className="container max-w-screen-xl">
+      <main>
         <Outlet />
       </main>
     </>
