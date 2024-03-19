@@ -2,23 +2,31 @@ export default function ServicesSectionCard() {
   const contents = [
     {
       id: 1,
-      title: "Business Consultancy",
+      title: "Business Incorporation",
       description:
-        "We go beyond the basics. We are here to help improve quality management system and customer satisfaction",
+        "Start your journey on the right foot with our comprehensive company formation services. We'll handle all the paperwork and legal requirements, so you can focus on building your business.",
       image: "./business-consultancy.jpg",
     },
     {
       id: 2,
-      title: "Tax Registration",
+      title: "Legal Compliance",
       description:
-        "Prokaizen is here to provide assistance in your business registered for tax.",
+        "Stay on the right side of the law with our legal compliance services. Our team will ensure that your business is fully compliant with all relevant regulations, minimizing the risk of costly fines or legal issues.",
       image: "./tax-registration.jpg",
     },
     {
       id: 3,
-      title: "Government Compliances",
+      title: "Business Planning",
       description:
-        "We will help you get started with your business by assisting you in getting the requirements, details and the proper registration with the appropriate government agencies.",
+        "A solid business plan is the foundation of every successful venture. Let us help you develop a strategic roadmap for your business, tailored to your unique goals and objectives.",
+      image: "./government-compliances.jpg",
+    },
+
+    {
+      id: 4,
+      title: "Financial Management",
+      description:
+        "Take control of your finances with our expert financial management services. From budgeting and forecasting to cash flow management, we'll help you optimize your financial performance and drive growth.",
       image: "./government-compliances.jpg",
     },
   ];
