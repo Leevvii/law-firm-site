@@ -11,7 +11,7 @@ export default function HeroSection() {
       <div className="container max-w-screen-xl">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
+          <div className="max-w-xl">
             <h1 className="mb-5 text-5xl font-bold">Lorem, ipsum dolor.</h1>
             <p className="mb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio
