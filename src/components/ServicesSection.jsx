@@ -6,7 +6,6 @@ export default function ServicesSection() {
     <section className="py-12">
       <div className="container max-w-screen-xl">
         <h2 className="text-4xl mb-2">Our Services</h2>
-
         <ServicesSectionCard />
       </div>
     </section>

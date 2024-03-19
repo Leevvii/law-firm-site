@@ -22,37 +22,32 @@ export default function ServicesSectionCard() {
       image: "./government-compliances.jpg",
     },
 
-    {
-      id: 4,
-      title: "Financial Management",
-      description:
-        "Take control of your finances with our expert financial management services. From budgeting and forecasting to cash flow management, we'll help you optimize your financial performance and drive growth.",
-      image: "./government-compliances.jpg",
-    },
+    // {
+    //   id: 4,
+    //   title: "Financial Management",
+    //   description:
+    //     "Take control of your finances with our expert financial management services. From budgeting and forecasting to cash flow management, we'll help you optimize your financial performance and drive growth.",
+    //   image: "./government-compliances.jpg",
+    // },
   ];
 
   return (
-    <div>
-      <div className="grid gap-4 md:gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {contents.map((content) => (
-          <div
-            className="card bg-neutral text-neutral-content"
-            key={content.id}
-          >
-            <figure>
-              <img
-                src={content.image}
-                alt={content.title}
-                className="object-cover aspect-[4/3]"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">{content.title}</h2>
-              <p>{content.description}</p>
-            </div>
+    <div className="grid gap-4 md:gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {contents.map((content) => (
+        <div className="card bg-neutral text-neutral-content" key={content.id}>
+          <figure>
+            <img
+              src={content.image}
+              alt={content.title}
+              className="object-cover aspect-[4/3]"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">{content.title}</h2>
+            <p>{content.description}</p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 }
